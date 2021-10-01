@@ -26,7 +26,7 @@ export default function Games() {
 
   return (
     <div>
-      <h1 className="titreGames">Jeux les plus populaires</h1>
+      <h1 className="titreGames">CD deploy Jeux les plus populaires</h1>
       <div className="flexAccueil">
         {games.map((game, index) => (
           <div key={index} className="carteGames">
