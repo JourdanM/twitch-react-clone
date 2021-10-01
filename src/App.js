@@ -7,7 +7,7 @@ import Live from "./Components/Live/Live";
 import GameStreams from "./Components/GameStreams/GameStreams";
 import Resultats from "./Components/Resultats/Resultats";
 import Erreur from "./Components/Erreur/Erreur";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
